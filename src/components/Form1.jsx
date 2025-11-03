@@ -11,7 +11,7 @@ const style = {
     inputGroup: `space-y-4`,
     input: `w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all duration-300 placeholder-gray-400 text-gray-600 text-base`,
     textarea: `w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all duration-300 placeholder-gray-400 min-h-[150px] resize-none text-gray-600 text-base `,
-    button: `w-full md:w-auto px-8 py-3 bg-teal-700 text-white text-lg font-semibold rounded-lg hover:bg-teal-800 transform hover:scale-[1.02] transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer`,
+    button: `w-full md:w-auto px-8 py-3 bg-teal-700 text-white text-lg font-semibold rounded-2xl hover:rounded-none transform hover:scale-[1.02] transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer`,
     buttonIcon: `text-xl`,
     error: `text-red-500 text-sm mt-1`,
     success: `text-green-500 text-center text-lg font-medium`,

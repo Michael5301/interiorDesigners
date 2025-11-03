@@ -16,8 +16,8 @@ function Navbar() {
       <div className={style.container}>
           <navbar className={style.maincontainer}>
               <div className={style.leftLink}>
-                  <Link to='/about' >About</Link>
                   <Link to= '/projects'>Projects</Link>
+                  <Link to='/about' >About Us</Link>
               </div>
               <div className='text-teal-950 text-2xl font-semibold'>
                   <Link to='/'>

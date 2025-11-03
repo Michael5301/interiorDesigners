@@ -8,6 +8,9 @@ import Project5 from '../../public/images/projects/project5.jpg';
 import Project6 from '../../public/images/projects/project6.jpg';
 import Project7 from '../../public/images/projects/project7.jpg';
 import Project8 from '../../public/images/projects/project8.jpg';
+import Project9 from '../../public/images/projects/project9.jpg';
+import Project10 from '../../public/images/projects/project10.jpg';
+
 
 const style = {
     image: 'cursor-pointer hover:scale-110 duration-300 shadow-2xl rounded-lg ',
@@ -32,6 +35,8 @@ function Projects() {
                       <img src={Project6} alt="" className={style.image} />
                       <img src={Project7} alt="" className={style.image} />
                       <img src={Project8} alt="" className={style.image} />
+                      <img src={Project9} alt="" className={style.image} />
+                      <img src={Project10} alt="" className={style.image} />
                   </div>
               </div>
           </Fade>

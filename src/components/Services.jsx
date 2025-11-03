@@ -139,7 +139,7 @@ const interiorDesignServices = [
 
 const style = {
     container:
-        'grid gap-8 md:grid-cols-2 max-w-[1140px] mx-auto px-4 py-12 md:py-24 bg-teal-500',
+        'grid gap-8 md:grid-cols-2 max-w-[1140px] mx-auto px-4 py-12 md:py-24 bg-teal-900',
     leftdiv: ' ',
 
     containerimage:
@@ -151,9 +151,9 @@ const style = {
     rightdiv: 'grid gap-4 md:grid-cols-2 lg:grid-cols-3',
     service: 'bg-emerald-500 p-4 rounded-xl text-slate-950 shadow-2xl',
     serviceheader: 'pb-4 bg-white px-2 rounded-xl shadow-md',
-    button: 'bg-green-900 text-white p-2 rounded text-xl    ',
+    button: 'bg-teal-900 text-xl m-4 text-white py-2 px-8 rounded-2xl shadow-md hover:scale-102 hover:rounded-none duration-300 cursor-pointer font-semibold  ',
 
-    servicedetails: 'bg-white'
+    servicedetails: 'bg-white',
 };
 
 function services() {
@@ -212,7 +212,7 @@ function services() {
                             </ul>
                         </div>
                         <div>
-                            <button className="bg-green-900 text-xl m-4 text-white py-2 px-8 rounded-2xl shadow-md hover:scale-102 hover:rounded-none duration-300 cursor-pointer font-semibold">
+                            <button className={style.button}>
                                 Inquire About This Service
                             </button>
                         </div>
