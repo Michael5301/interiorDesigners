@@ -14,7 +14,7 @@ const style = {
 function Hero() {
     return (
         <Fade>
-        <div className="max-w-[1140px] mx-auto px-4 md:h-[600px] py-12 md:py-24">
+        <div className="max-w-[1140px] mx-auto px-4 py-6 md:py-12">
             <h1 className={style.heading2}>About</h1>
             <div className={style.contents}>
                 <div className="lg:w-[25%] flex flex-col gap-4 justify-between">
